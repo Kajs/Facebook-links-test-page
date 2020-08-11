@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Kajs/Facebook-links-test-page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Kajs/Facebook-links-test-page/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+		<style>
+		.facebookSharePageBox{
+			position: relative;
+			background-color: #3b5998;
+			height: 58px;
+			width: 188px;
+			
+			transition: 1.075s;
+			
+			
+			
+			
+		}
+		.facebookSharePageLink{
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		  color: white;
+		  cursor: pointer;
+		  font-size: 24px;
+		  text-decoration: none;
+		  font-weight: bold;
+		  padding-top: 13px;
+		  padding-left: 8px;
+		}
+		</style>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+		<!--<a class="facebookSharePageBox" href="https://www.google.dk">Del på Facebook</a>-->
+		<div class="facebookSharePageBox">
+		  <a class="facebookSharePageLink" href="https://www.facebook.com/sharer.php?u=#url">Del på Facebook</a>
+		</div>
+    </body>
+</html>
