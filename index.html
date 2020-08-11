@@ -21,12 +21,69 @@
 		  padding-top: 14px;
 		  padding-left: 11px;
 		}
+		.facebookSharePageBox2{
+			position: relative;
+			display: inline-block;
+			//background-color: #3b5998;
+			height: 58px;
+			width: 188px;	
+			top: 10px;
+		}
+		.facebookSharePageBox2Left{
+			position: absolute;
+			background-color: white;
+			height: 54px;
+			width: 44px;	
+			display: inline-block;
+			border: 2px solid #3b5998;
+		}
+		.facebookSharePageBox2Right{
+			left: 44px;
+			position: absolute;
+			background-color: #3b5998;
+			height: 100%;
+			width: 144px;
+			display: inline-block;			
+		}
+		.facebookSharePageLink2Left{
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		  color: #3b5998;
+		  cursor: pointer;
+		  font-size: 40px;
+		  text-decoration: none;
+		  font-weight: bold;
+		  padding-top: 4px;
+		  padding-left: 13px;	
+		}
+		.facebookSharePageLink2Right{
+		  position: absolute;
+		  height: 100%;
+		  width: 100%;
+		  color: white;
+		  cursor: pointer;
+		  font-size: 20px;
+		  text-decoration: none;
+		  //font-weight: bold;
+		  padding-top: 18px;
+		  padding-left: 6px;
+		}
+		
 		</style>
     </head>
     <body>
         <h1>Test page for a facebook share page button.</h1>
 		<div class="facebookSharePageBox">
 		  <a class="facebookSharePageLink" href="https://www.facebook.com/sharer.php?u=#url">Del på facebook</a>
+		</div>
+		<div class="facebookSharePageBox2">
+		  <div class="facebookSharePageBox2Left">
+		    <a class="facebookSharePageLink2Left" href="https://www.facebook.com/sharer.php?u=#url">f</a>
+		  </div>
+		  <div class="facebookSharePageBox2Right">
+		    <a class="facebookSharePageLink2Right" href="https://www.facebook.com/sharer.php?u=#url">Del på facebook</a>
+		  </div>
 		</div>
     </body>
 </html>
